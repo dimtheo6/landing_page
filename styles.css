@@ -3,6 +3,9 @@ body {
     margin: 0px;
 
 }
+img{
+    height: 200px;
+}
 
 .wrapper {
     display: flex;
@@ -55,49 +58,66 @@ ul {
     flex-basis: auto;
 }
 
-a {
-    text-decoration: none;
-    color: #f9faf8;
+/* quote block styles */
+.quote{
+    background-color: #e5e7eb;
+    padding: 50px;
+    margin-top: 20px;
+}
+.quote .text{
+    
+    font-size: 26px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.quote .title{
+    text-align: center;
+    margin-left: 350px;
+    font-weight: bold;
 }
 
 /* popup square styles */
-.popup{
+.popup {
     background-color: #3882f6;
     display: flex;
     border-style: solid #3882f6;
     border-radius: 10px;
     width: 60%;
     height: 100px;
-    margin: 150px auto 20px auto;
+    margin: 25px auto 20px auto;
     align-items: center;
-    
-    
 }
 
-.popup .title{
+.popup .title {
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
-.popup .text{
+
+.popup .text {
     color: white;
 }
 
 .popup .title,
-.popup .text{
+.popup .text {
     margin-left: 300px;
 }
 
-.popup button{
+.popup button {
     display: inline-block;
     border-color: white;
     color: white;
     border-radius: 5px;
     background-color: #3882f6;
     margin-left: 100px;
+    margin-right: 50px;
     height: 30px;
     width: 120px;
-    
 }
 
 /* footer styles */
@@ -108,4 +128,9 @@ a {
     padding: 20px;
     text-align: center;
 
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
 }
