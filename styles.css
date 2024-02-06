@@ -58,6 +58,30 @@ ul {
     flex-basis: auto;
 }
 
+/* information styles */
+.info .title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 10px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.image{
+    text-align: center;
+    
+}
+.image img{
+    width: 150px;
+    height: 100px;
+}
+.image .text{
+    width: 150px;
+}
+
 /* quote block styles */
 .quote{
     background-color: #e5e7eb;
@@ -80,6 +104,8 @@ ul {
     margin-left: 350px;
     font-weight: bold;
 }
+
+
 
 /* popup square styles */
 .popup {
