@@ -60,11 +60,51 @@ a {
     color: #f9faf8;
 }
 
+/* popup square styles */
+.popup{
+    background-color: #3882f6;
+    display: flex;
+    border-style: solid #3882f6;
+    border-radius: 10px;
+    width: 60%;
+    height: 100px;
+    margin: 150px auto 20px auto;
+    align-items: center;
+    
+    
+}
+
+.popup .title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.popup .text{
+    color: white;
+}
+
+.popup .title,
+.popup .text{
+    margin-left: 300px;
+}
+
+.popup button{
+    display: inline-block;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    background-color: #3882f6;
+    margin-left: 100px;
+    height: 30px;
+    width: 120px;
+    
+}
+
 /* footer styles */
 .footer {
     margin-top: auto;
     background-color: #1f2937;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
 
